@@ -1,0 +1,46 @@
+.form-label {
+    margin-bottom: unset;
+}
+
+.social-options {
+    .social {
+        border: 1px solid;
+        padding: 5px 25px; 
+    }
+    .btn.social.facebook {
+        background-color: transparent; /* Set button background color to transparent */
+    }
+    
+    .btn.social.facebook:hover {
+        background-color: #3b5998; /* Set hover background color */
+    }
+    /* Adjust icon color on hover */
+    .btn.social.facebook:hover svg {
+        fill: white;
+    }
+
+    .btn.social.twitter {
+        background-color: transparent; /* Set button background color to transparent */
+    }
+    
+    .btn.social.twitter:hover {
+        background-color: black; /* Set hover background color */
+    }
+    /* Adjust icon color on hover */
+    .btn.social.twitter:hover svg {
+        fill: white;
+    }
+    .btn.social.google {
+        background-color: transparent; /* Set button background color to transparent */
+    }
+    
+    .btn.social.google:hover {
+        background-color: #dff099;;
+    }
+    /* Adjust icon color on hover */
+    .btn.social.google:hover svg {
+        fill: orange;
+    }
+}
+
+
